@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="back.css" rel="stylesheet" type="text/css">
+	<title>Home Page</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$document.load(function(){
+			$(".che").hide();
+		});
+
+		$document.ready(function(){
+			$("#bt").click(function(){
+				$(".che").hide();
+
+			});
+		});
+
+	</script>
+</head>
+<body>
+	<header>
+	<p>
+		Home page Find Your Medicines here!!
+	</p><br><br>
+	<button id="bt">Display</button>
+	<ul class="che">
+		<li>Hallucinogens</li>
+		<li>Opioids and Opiates</li>
+		<li>Hallucinogens</li>
+		<li>Stimulants</li>
+		<li>Depressants</li>
+	</ul>
+	</header>
+</body>
+</html>
